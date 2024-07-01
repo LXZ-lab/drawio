@@ -1,9 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T08:19:18.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.3" etag="MgibTSkx5uiZRq10VP32" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T08:47:41.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="UhplHrOkpD1u4Y-umSSq" version="24.6.3" type="github">
   <diagram name="第 1 页" id="3OIGy40fdSbXdtrEvQ1d">
-    <mxGraphModel>
+    <mxGraphModel dx="1049" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="149.8" as="sourcePoint" />
+            <mxPoint x="270" y="149.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-9" value="1.回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontColor=#FF0000;" vertex="1" connectable="0" parent="P-4OkCxeizCS1oWZnwxX-5">
+          <mxGeometry x="-0.1091" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-1" value="支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-4OkCxeizCS1oWZnwxX-2" target="P-4OkCxeizCS1oWZnwxX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-10" value="&lt;b&gt;EMQ&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P-4OkCxeizCS1oWZnwxX-4">
+          <mxGeometry x="-0.1364" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-2" value="订单微服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-3" value="售货机微服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-11" value="&lt;font color=&quot;#ff0000&quot;&gt;2.发生协议&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-12" value="售货机终端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-13" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;VendoutContract&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-Innercode&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-SKUId&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-orderNo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-14" value="支付成功&amp;nbsp;&lt;div&gt;修改订单和支付状态&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-15" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;VendoutContract&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;加个 channelCode&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="70" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.889;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P-4OkCxeizCS1oWZnwxX-3" target="P-4OkCxeizCS1oWZnwxX-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.188;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;" edge="1" parent="1" source="P-4OkCxeizCS1oWZnwxX-12" target="P-4OkCxeizCS1oWZnwxX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.123;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P-4OkCxeizCS1oWZnwxX-2" target="P-4OkCxeizCS1oWZnwxX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-30" value="&lt;b&gt;EMQ&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P-4OkCxeizCS1oWZnwxX-20">
+          <mxGeometry x="0.0341" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-21" value="&lt;b&gt;EMQ&lt;/b&gt;&lt;div&gt;出货topic&lt;/div&gt;&lt;div&gt;vm/售货机编号/vendout&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-22" value="3.通知发货" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="710" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-23" value="&lt;b&gt;4.返回发货结果&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-24" value="&lt;b&gt;4.返回发货结果&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-25" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;VendoutResultContract&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-success&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-Innercode&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-SKUId&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-orderNo&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-channelCode&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="290" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-26" value="发货成功 or 失败&lt;div&gt;修改订单状态 or 需退款&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-27" value="&lt;font color=&quot;#0066cc&quot;&gt;1.查询可出货货道&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#0066cc&quot;&gt;2.扣减货道库存&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0066cc&quot;&gt;3.记录流水 ， 出货状态为F&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="135" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-28" value="发货成功 → 修改流水出货状态为 T&lt;div&gt;失败 → 恢复库存&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="720" y="270" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P-4OkCxeizCS1oWZnwxX-29" value="&lt;font color=&quot;#0066cc&quot;&gt;1.创建出货记录并出货&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#0066cc&quot;&gt;2.每分钟补偿已完成但未上报的数据&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0066cc&quot;&gt;3.每两分钟自检并上报&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="405" width="203" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
